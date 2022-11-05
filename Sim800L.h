@@ -59,7 +59,7 @@
 
 #ifndef Sim800L_h
 #define Sim800L_h
-#include <SoftwareSerial.h>
+#include <SomeSerial.h>
 #include "Arduino.h"
 
 
@@ -74,7 +74,7 @@
 #define DEFAULT_BAUD_RATE		9600
 #define TIME_OUT_READ_SERIAL	5000
 
-class Sim800L : public SoftwareSerial
+class Sim800L : public SomeSerial
 {
 private:
 
